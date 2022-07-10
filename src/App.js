@@ -6,7 +6,8 @@ import { Component } from 'react';
 // import FunctionClick from './components/functionClick';
 // import ClassClick from './components/classClick';
 //import EventBind from './components/eventBind';
-import ParentComponent from './components/parentComponent';
+//import ParentComponent from './components/parentComponent';
+import UserGreeting from './components/userGreeting';
 // import Hello from './components/hello';
 // import Message from './components/message';
 // import Counter from './components/counter';
@@ -15,8 +16,9 @@ class App extends Component {
   render () {
     return (
       <div className="App">
+        <UserGreeting/>
         {/* <EventBind/> */}
-        <ParentComponent/>
+        {/* <ParentComponent/> */}
       {/* <FunctionClick/>
       <ClassClick/> */}
         {/* <Counter/> */}
