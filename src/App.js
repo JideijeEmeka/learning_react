@@ -8,16 +8,24 @@ import { Component } from 'react';
 //import EventBind from './components/eventBind';
 //import ParentComponent from './components/parentComponent';
 //import UserGreeting from './components/userGreeting';
-import NameList from './components/nameList';
+//import NameList from './components/nameList';
+//import StyleSheet from './components/styleSheet';
+//import Inline from './components/inline';
 // import Hello from './components/hello';
 // import Message from './components/message';
 // import Counter from './components/counter';
+import './components/appStyles.css'
+import styles from './components/appStyles.module.css'
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-        <NameList/>
+        <h1 className = 'error'>Error</h1>
+        <h1 className = {styles.success}>Success</h1>
+        {/* <Inline/> */}
+        {/* <StyleSheet primary = {true}/> */}
+        {/* <NameList/> */}
         {/* <UserGreeting/> */}
         {/* <EventBind/> */}
         {/* <ParentComponent/> */}
